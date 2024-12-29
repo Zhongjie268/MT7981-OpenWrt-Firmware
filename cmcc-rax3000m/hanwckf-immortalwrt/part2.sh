@@ -14,6 +14,8 @@
 #See the License for the specific language governing permissions and
 #limitations under the License.
 
+git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+
 echo '替换jerrykuku的luci argon主题'
 rm -rf feeds/luci/themes/luci-theme-argon
 git clone -b master --single-branch https://github.com/jerrykuku/luci-theme-argon feeds/luci/themes/luci-theme-argon
